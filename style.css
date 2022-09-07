@@ -1,10 +1,10 @@
     body {
     background-color: #f0f8ff;
 }
-p {
+ p {
     color: #00008b;
 }
-a, h2 {
+a, h2  {
     color: crimson;
 }
 #cimkep {
@@ -37,12 +37,18 @@ a, h2 {
     margin-left: auto;
     margin-right: auto;
     width: 500px;
-
 }
-#tablazattbody {
-    width: 500px;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#besorolastablazat td {
+    margin: 6px;
+    padding: 6px;
+}
+.tablazatalcim {
+        background-color: crimson;
+        text-align: center;
+        padding: auto;
+        
+}
+.tablazatalcim h2 {
+    color: aliceblue;
+    margin: auto;
 }
